@@ -15,7 +15,7 @@ public class Account extends User {
     private String numberAccount;
     @AccountiD
     private int accountId;
-    private BigDecimal balanceAccount = new BigDecimal("0");
+    private BigDecimal balanceAccount = new BigDecimal ("0");
     User user = new User ();
 
     public Account(int iD, String name, String surname, int balance, int accountId) {
