@@ -12,7 +12,10 @@ public class Main {
         System.out.println (account.getSurname ());
         System.out.println (account2.getName ());
         account1.setBalanceAccount (100);
-        account1.setBalanceAccount (100);
+        account1.setBalanceAccount (250);
+        account1.setBalanceAccount (400);
+        account1.setBalanceAccount (500);
         account1.accountBalance();
+
     }
 }
