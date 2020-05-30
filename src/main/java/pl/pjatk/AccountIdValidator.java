@@ -13,8 +13,8 @@ public class AccountIdValidator implements ConstraintValidator<AccountiD, Intege
 
     @Override
     public boolean isValid(Integer iD, ConstraintValidatorContext context) {
-        System.out.println ("o cho nie wiem co");
-        return iD  >= 150;
+
+        return iD  >= 26;
     }
 
 }
