@@ -11,5 +11,8 @@ public class Main {
         System.out.println (account2.getBalance ());
         System.out.println (account.getSurname ());
         System.out.println (account2.getName ());
+        account1.setBalanceAccount (100);
+        account1.setBalanceAccount (100);
+        account1.accountBalance();
     }
 }
