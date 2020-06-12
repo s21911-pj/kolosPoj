@@ -16,6 +16,7 @@ public class Main {
 
 
         System.out.println (account.getSurname ());
+        System.out.println (account.getBalance ());
 
 
 
