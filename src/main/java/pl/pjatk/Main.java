@@ -18,6 +18,8 @@ public class Main {
         System.out.println (account.getSurname ());
         System.out.println (account.getBalance ());
 
+        System.out.println (account1.getBalance ());
+
 
 
         account1.setBalanceAccount (100);
